@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add_new_note.AddNewNoteFragment">
+
+    <EditText
+        android:id="@+id/edit_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_note_title" />
+
+    <EditText
+        android:id="@+id/edit_note_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_note_title"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_note_text" />
+
+    <Button
+        android:id="@+id/btn_addNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_note_text"
+        android:layout_margin="20dp"
+        android:text="@string/add_note"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
