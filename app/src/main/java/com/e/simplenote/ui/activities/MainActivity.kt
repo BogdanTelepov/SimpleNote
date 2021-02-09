@@ -1,9 +1,10 @@
-package com.e.simplenote
+package com.e.simplenote.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import com.e.simplenote.R
 import com.e.simplenote.databinding.ActivityMainBinding
 import com.e.simplenote.utilits.APP_ACTIVITY
 

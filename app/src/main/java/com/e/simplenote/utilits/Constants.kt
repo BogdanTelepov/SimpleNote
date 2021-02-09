@@ -1,6 +1,6 @@
 package com.e.simplenote.utilits
 
-import com.e.simplenote.MainActivity
+import com.e.simplenote.ui.activities.MainActivity
 import com.e.simplenote.database.DatabaseRepository
 
 lateinit var REPOSITORY: DatabaseRepository

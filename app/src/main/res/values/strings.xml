@@ -8,4 +8,5 @@
     <string name="enter_note_text">Enter note text</string>
     <string name="add_note">Добавить</string>
     <string name="enter">Войти</string>
+    <string name="simple_note">Simple Note</string>
 </resources>

@@ -12,6 +12,7 @@ import com.e.simplenote.R
 import com.e.simplenote.databinding.FragmentMainBinding
 import com.e.simplenote.model.AppNote
 import com.e.simplenote.utilits.APP_ACTIVITY
+import com.e.simplenote.utilits.TYPE_ROOM
 
 
 class MainFragment : Fragment() {
@@ -50,7 +51,6 @@ class MainFragment : Fragment() {
         }
 
         viewModel = ViewModelProvider(this).get(MainFragmentViewModel::class.java)
-
         viewModel.allNotes.observe(viewLifecycleOwner, _observerList)
 
         binding.floatingBtn.setOnClickListener {
